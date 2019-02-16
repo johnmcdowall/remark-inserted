@@ -1,0 +1,35 @@
+{
+  "name": "remark-inserted",
+  "version": "1.0.0",
+  "description": "A plugin to parse ++inserted++ syntax, and produce a new node type to the mdast produced by remark: mark",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "John McDowall <john@kantan.io>",
+  "license": "MIT",
+  "files": [
+    "LICENSE-MIT",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "remark"
+  ],
+  "dependencies": {
+    "is-whitespace-character": "^1.0.0"
+  },
+  "devDependencies": {
+    "dedent": "^0.7.0",
+    "rehype-stringify": "^5.0.0",
+    "remark-parse": "^6.0.3",
+    "remark-rehype": "^4.0.0",
+    "remark-stringify": "^6.0.4",
+    "unified": "^7.1.0"
+  }
+}

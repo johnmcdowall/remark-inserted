@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parses inserted markdown generates the correct mark HTML elements 1`] = `"<p><mark>cats are awesome</mark></p>"`;
+
+exports[`to markdown 1`] = `
+"++cats are awesome++
+"
+`;
